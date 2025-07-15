@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "2b63e7b8-20b7-4ae5-aec0-b760499a2c6a",
+		"name": "KPA_WheelSpec",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46761608",
+		"_collection_link": "https://ashwinikb-752076.postman.co/workspace/a2fa3ed4-0e0f-423d-8dcb-645b0366be4b/collection/46761608-2b63e7b8-20b7-4ae5-aec0-b760499a2c6a?action=share&source=collection_link&creator=46761608"
+	},
+	"item": [
+		{
+			"name": "Create WheelSpec",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"tread_diameter\": 850,\r\n  \"condemning_dia\": 780,\r\n  \"last_shop_issue_size\": 860,\r\n  \"wheel_gauge\": 1676,\r\n  \"variation_same_axle\": 2.5,\r\n  \"id\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/docs#/default/create_wheel_spec_wheel_specification_post",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"docs"
+					],
+					"hash": "/default/create_wheel_spec_wheel_specification_post"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
