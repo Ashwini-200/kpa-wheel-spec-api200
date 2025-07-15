@@ -42,7 +42,8 @@ The API is modular, using separate files for database models, validation schemas
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/kpa-wheel-spec-api.git
+git clone https://github.com/Ashwini-200/kpa-wheel-spec-api200.git
+
    cd kpa-wheel-spec-api
 # kpa-wheel-spec-api200
 FastAPI &amp; PostgreSQL Wheel Specification API – Implements two endpoints to create and fetch wheel specifications as per the KPA assignment.
